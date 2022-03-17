@@ -12,7 +12,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Remove="Controllers\DepartmentsController.cs" />
+    <None Include="Views\Departments\Create.cshtml" />
+    <None Include="Views\Departments\Delete.cshtml" />
+    <None Include="Views\Departments\Details.cshtml" />
+    <None Include="Views\Departments\Edit.cshtml" />
   </ItemGroup>
 
   <ItemGroup>

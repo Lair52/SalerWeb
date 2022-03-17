@@ -9,5 +9,6 @@ namespace SalerWebMvc.Models
     {
         public string Name { get; set; }
         public int Id { get; set; }
+        public double S { get; set; }
     }
 }

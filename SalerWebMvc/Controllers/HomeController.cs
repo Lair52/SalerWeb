@@ -17,7 +17,7 @@ namespace SalerWebMvc.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Salles Web MVC App.";
+            ViewData["Message"] = "Sales Web MVC App";
             ViewData["Developer"] = "Lair Anderson";
 
             return View();
@@ -25,7 +25,7 @@ namespace SalerWebMvc.Controllers
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Let's talk!";
 
             return View();
         }
